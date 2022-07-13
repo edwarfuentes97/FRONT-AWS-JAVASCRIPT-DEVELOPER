@@ -1,5 +1,32 @@
 <app-header></app-header>
+<mat-accordion>
+  <mat-expansion-panel >
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        AWS LINKS
+      </mat-panel-title>
+      <mat-panel-description>
+        where u can fin us ? - Click to show links to S3 and CloudFront.
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+    <mat-list role="list">
+      <mat-list-item>
+        Link to CloudFront... &nbsp;
+        <a href="https://d3rv5j4jan08vt.cloudfront.net" target="_blank">
+          (https://d3rv5j4jan08vt.cloudfront.net )
+        </a>
+      </mat-list-item>
 
+      <mat-list-item>
+        Link to S3... &nbsp;
+        <a href="http://js-cc-shop-angular-cloudfront.s3-website-us-east-1.amazonaws.com/" target="_blank">
+          (http://js-cc-shop-angular-cloudfront.s3-website-us-east-1.amazonaws.com/  )
+        </a>
+      </mat-list-item>
+    </mat-list>
+
+  </mat-expansion-panel>
+</mat-accordion>
 <div class="container py-3 py-md-5">
   <router-outlet></router-outlet>
 </div>
