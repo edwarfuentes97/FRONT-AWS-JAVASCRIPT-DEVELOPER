@@ -6,7 +6,7 @@
 - **S3**
   - http://js-cc-shop-angular-cloudfront.s3-website-us-east-1.amazonaws.com/
 - **CloudFront**
-  - https://d3rv5j4jan08vt.cloudfront.net
+  - https://d2m1blxnzf7v4s.cloudfront.net/
 
 
 Angular version: ~12.
