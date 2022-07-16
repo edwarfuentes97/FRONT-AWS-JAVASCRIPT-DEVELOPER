@@ -207,7 +207,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/js-cc-shop-angular-cloudfront/dev/1657398024171-2022-07-09T20:20:24.171Z/js-cc-shop-angular-cloudfront.zip"
+          "S3Key": "serverless/js-cc-shop-angular-cloudfront/dev/1658008638308-2022-07-16T21:57:18.308Z/js-cc-shop-angular-cloudfront.zip"
         },
         "Handler": "s_hello.handler",
         "Runtime": "nodejs14.x",
@@ -225,14 +225,14 @@
         "HelloLogGroup"
       ]
     },
-    "HelloLambdaVersion0R3QjcSMNGJeLGV2NXYkyFujmvonQex0JxdLjNinWQ": {
+    "HelloLambdaVersionmnZRwhhQe2weX7jqboXU42hXqOJtifuYAlHYmDeGk": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "HelloLambdaFunction"
         },
-        "CodeSha256": "5LcFLzIfn+XjBlO46l+vrat3l7O+xyS1OORCIiV+njc="
+        "CodeSha256": "9H4TZ2KHRjJFuKPmACdG9qb46lHkixcR3LixuY76b0s="
       }
     },
     "WebAppS3Bucket": {
@@ -379,7 +379,7 @@
     "HelloLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "HelloLambdaVersion0R3QjcSMNGJeLGV2NXYkyFujmvonQex0JxdLjNinWQ"
+        "Ref": "HelloLambdaVersionmnZRwhhQe2weX7jqboXU42hXqOJtifuYAlHYmDeGk"
       },
       "Export": {
         "Name": "sls-js-cc-shop-angular-cloudfront-dev-HelloLambdaFunctionQualifiedArn"
