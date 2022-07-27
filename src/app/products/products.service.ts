@@ -1,16 +1,18 @@
 import { Injectable } from '@angular/core';
-
 import { EMPTY, Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
-
 import { Product } from './product.interface';
-
 import { ApiService } from '../core/api.service';
 
 @Injectable({
   providedIn: 'root',
 })
 export class ProductsService extends ApiService {
+
+
+
+
+
   createNewProduct(product: Product): Observable<Product> {
     if (!this.endpointEnabled('bff')) {
       console.warn(
@@ -60,7 +62,7 @@ export class ProductsService extends ApiService {
       console.warn(
         'Endpoint "bff" is disabled. To enable change your environment.ts config'
       );
-      return this.http.get<Product[]>('https://406dm9u6e2.execute-api.us-east-1.amazonaws.com/dev/products');
+      return this.http.get<Product[]>('/assets/products.json');
     }
 
     const url = this.getUrl('bff', 'products');
