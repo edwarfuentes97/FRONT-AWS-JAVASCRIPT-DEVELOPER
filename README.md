@@ -1,4 +1,4 @@
-# Shop Angular Cloudfront
+# Front Shop Angular Cloudfront
 
 ## Links to S3 and cloudFront
 
